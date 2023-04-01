@@ -1,6 +1,5 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
-import tensorflow as tf
 import cv2
 import mediapipe as mp
 from keras.models import load_model
