@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 
 
-model = load_model(r"C:\Users\Shrikar\Desktop\Sign-Language-Detection\H5 files\small_batch_val-10.h5")
+model = load_model(small_batch_val-10.h5")
 st.title("The dumb guy is saying:")
 t = st.empty()
 msg = ""
